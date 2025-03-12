@@ -15,7 +15,7 @@ namespace SecurityIncidents.Core
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Connection string
-            optionsBuilder.UseMySQL("server=mysqlstudenti.litv.sssvt.cz;database=3c2_steinerovaadela_db1;uid=steinerovaadela;password=123456");
+            optionsBuilder.UseMySQL("");
         }
 
     }
